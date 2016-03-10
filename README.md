@@ -55,9 +55,6 @@ Default value: `function(filename) { return filename; }`
 
 ### Usage Examples
 
-#### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
-
 ```js
 grunt.initConfig({
   colorOverlay: {
@@ -95,8 +92,6 @@ grunt.initConfig({
   }
 });
 ```
-
-#### Custom Options
 
 上面例子3个任务，分别对原图片转换成红色，蓝色以及灰色三套图标。其中红色任务在red文件夹下面，图片文件名称和原来的一样；蓝色和禁用任务放在同一个名为mixed的文件夹，但是，通过文件名称进行区分，分别是<code>blue.</code>和<code>disabled.</code>前缀。
 
